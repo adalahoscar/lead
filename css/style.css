@@ -5,8 +5,6 @@ body {
 	background-repeat: repeat;
 }
 
-
-
 .total {
 	text-align: center;
 	border-radius: 4px;
@@ -16,7 +14,7 @@ body {
 }
 
 .title-leaderboard {
-	color: #555555;
+	color: #FFC703;
 	font-family: 'Fredoka One', cursive;
 	text-align: center;
 	text-shadow: #ccc 0 1px 0, #c9c9c9 0 2px 0, #bbb 0 3px 0, #b9b9b9 0 4px 0, #aaa 0 5px 0,
@@ -29,52 +27,51 @@ body {
 	rgba(0, 0, 0, .1) 0 0px 0px;
 }
 
-
 #user .avatar {
-    width:60px;
-	}
+	width:60px;
+}
 #user .avatar > img{
 	width:50px;
 	height:50px;
 	border-radius:50%;
-	}
+}
 /*Card*/
 #user .panel-thumb{
-margin:5px auto;
-text-align:center;	
-	}
+	margin:5px auto;
+	text-align:center;
+}
 #user .panel-thumb .avatar-card {
-text-align:center;
-height:200px;
-margin:auto;
-overflow:hidden;
-}	
+	text-align:center;
+	height:200px;
+	margin:auto;
+	overflow:hidden;
+}
 #user .panel-thumb .avatar-card > img{
 	max-width:200px;
 	max-height:200px;
-	}
+}
 
 /* table*/
 #user .panel-table{
-  animation-duration:3s;
+	animation-duration:3s;
 }
 
 #user .panel-table .panel-body .table{
-  margin:0px;
+	margin:0px;
 }
 #user .panel-table .panel-body {
-  padding:0px;
+	padding:0px;
 }
 #user .panel-table .panel-body .table-bordered > thead > tr > th{
-  text-align:center;
+	text-align:center;
 }
 #user .panel-table .panel-footer {
-  height:60px;
-  padding:0px;
+	height:60px;
+	padding:0px;
 }
 
 .table-bordered>thead>tr>th, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>tbody>tr>td, .table-bordered>tfoot>tr>td {
-    border: 0px solid #eeeeee !important;
+	border: 0px solid #eeeeee !important;
 }
 
 .table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
@@ -127,14 +124,13 @@ overflow:hidden;
 		-ms-overflow-style: -ms-autohiding-scrollbar;
 		border: 0px solid #eeeeee !important;
 	}
-
 	.name {
-		font-size: 12pt;
+		font-size: 10pt;
 	}
 	.score {
-		font-size: 18pt;
+		font-size: 14pt;
 	}
 	.no {
-		font-size: 18pt;
+		font-size: 14pt;
 	}
 }
